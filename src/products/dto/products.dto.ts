@@ -7,3 +7,12 @@ export class CreateProductDto {
     price: number
     stock: number
 }
+
+export class UpdateProductDto {
+    id: number
+    name?: string
+    description?: string
+    category?: Category
+    price?: number
+    stock?: number
+}
